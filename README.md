@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Abdelrahman El-Bahnasawi 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Data+Science+%26+AI+Enthusiast;Machine+Learning+Learner;Competitive+Programmer;Building+Smart+Systems+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Data+Science+%26+AI+Enthusiast;Building+Tools+for+NASA+Mars+Data+%F0%9F%94%B4;Machine+Learning+Learner;Competitive+Programmer;Building+Smart+Systems+%F0%9F%9A%80" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -24,9 +24,79 @@
 
 - 🎓 Second-year student at **HITU**
 - 📊 Passionate about **Data Science, Machine Learning, and AI**
+- 🔴 **Currently focused on [MDRPA](https://github.com/AASH010/MEDA-Data-Research-Period-Analyzer-MDRPA)**, a research tool for NASA Perseverance MEDA data
 - 🧠 Practicing **problem solving** on Codeforces
 - 🌱 Building real-world projects that combine **data, IoT, and intelligent systems**
-- 🎯 Currently improving my skills in ML pipelines, data analysis, and algorithms
+- 🎯 Currently improving my skills in ML pipelines, scientific data analysis, and algorithms
+
+---
+
+## 🔥 Current Priority
+
+### 🔴 [MDRPA — MEDA Data Research & Period Analyzer](https://github.com/AASH010/MEDA-Data-Research-Period-Analyzer-MDRPA)
+
+<p>
+  <img src="https://img.shields.io/badge/Status-Active%20Development-F59E0B?style=flat-square" alt="Status" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PySide6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="PySide6" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
+  <img src="https://img.shields.io/badge/NASA%20PDS-0B3D91?style=flat-square&logo=nasa&logoColor=white" alt="NASA PDS" />
+</p>
+
+An independent scientific research tool for **exploring, validating, and comparing NASA Perseverance MEDA calibrated environmental data**, built to help researchers find candidate observation periods worth investigating, with every result traceable and nothing guessed.
+
+- 🗂️ **File discovery & XML metadata extraction** for MEDA calibrated products (CSV + PDS4 XML)
+- ⏱️ **Coverage analysis**: timestamps, gaps, duplicates, and numeric completeness
+- 🧪 **Quality analysis** built on documented metadata: special constants, candidate quality fields, uncertainty fields, and documented ranges
+- 🔗 **Synchronization analysis** with one-to-one timestamp matching and explicit time-axis handling (SCLK, UTC, LMST, LTST)
+- 🏁 **Explainable period ranking** of candidate Sol windows, with unavailable metrics disclosed rather than hidden
+- 🔒 Run isolation, a background execution pipeline, and a growing **pytest** suite
+- 🖥️ A **PySide6 desktop application** with dashboards and reports, under active development
+- 🔬 Strict scientific principles: no guessed quality-flag meanings, no silent time conversions, and a clear line between engineering quality and scientific validity
+
+> 📌 Part of the wider **MarsWalk Intelligence** research initiative. The project is under active development and not yet a finished, fully validated application.
+
+---
+
+## 🚀 Other Featured Projects
+
+### 🔴 [MarsWalk Intelligence (MWI)](https://github.com/AASH010/MarsWalk-Intelligence)
+
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+</p>
+
+A Mars terrain exploration and mission planning platform for analyzing Martian terrain, planning rover routes, and estimating mission requirements through an interactive map-based interface.
+
+- 🗺️ **Interactive Mars Map** with terrain, areas of interest (AOIs), route paths, and mission markers
+- 🧭 **Route Planning**: pick start and goal positions, choose a routing mode, and calculate a route
+- 📏 **Route Metrics** and **Route Comparison** across Fastest, Balanced, and Conservative modes
+- 🧑‍🚀 **Mission Planning**: estimates duration and oxygen consumption from mission parameters
+- 🗂️ **Layer Management** for CTX Orthomosaic, Operational AOI, and Route layers
+- 🖥️ Dark, science-oriented UI inspired by professional geospatial tools, with a **React** frontend and a **Python** backend
+
+---
+
+### 🌱 [AeroSoil — Smart Irrigation System](https://github.com/AASH010/smart-irrigation-system)
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white" alt="MQTT" />
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32" />
+  <img src="https://img.shields.io/badge/REST%20API-009688?style=flat-square&logoColor=white" alt="REST API" />
+</p>
+
+A smart irrigation system for efficient agricultural water management through sensor data collection, telemetry processing, and soil condition monitoring.
+
+- 📡 ESP32 simulation tools generate soil sensor readings and send telemetry over **MQTT**
+- ✅ The backend validates incoming data, separates valid and invalid telemetry, and stores records in databases
+- 🔌 Telemetry is exposed through a **REST API**
+- ♻️ A recovery service reprocesses eligible failed messages
+- 🧪 Automated tests cover API endpoints, validation, database operations, the MQTT subscriber, telemetry processing, and recovery workflows
+- 🧩 Modular design built for maintainability and future integration with physical IoT devices and monitoring interfaces
 
 ---
 
@@ -49,6 +119,12 @@
   <img src="https://img.shields.io/badge/Seaborn-3a7d6b?style=for-the-badge&logoColor=white" alt="Seaborn" />
 </p>
 
+### Desktop Apps & Testing
+<p>
+  <img src="https://img.shields.io/badge/PySide6-41CD52?style=for-the-badge&logo=qt&logoColor=white" alt="PySide6" />
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="pytest" />
+</p>
+
 ### Tools & Environment
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -57,46 +133,6 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" />
 </p>
-
----
-
-## 🚀 Featured Projects
-
-### 🌱 [AeroSoil — Smart Irrigation System](https://github.com/AASH010/smart-irrigation-system)
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white" alt="MQTT" />
-  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32" />
-  <img src="https://img.shields.io/badge/REST%20API-009688?style=flat-square&logoColor=white" alt="REST API" />
-</p>
-
-A smart irrigation system for efficient agricultural water management through sensor data collection, telemetry processing, and soil condition monitoring.
-
-- 📡 ESP32 simulation tools generate soil sensor readings and send telemetry over **MQTT**
-- ✅ The backend validates incoming data, separates valid and invalid telemetry, and stores records in databases
-- 🔌 Telemetry is exposed through a **REST API**
-- ♻️ A recovery service reprocesses eligible failed messages
-- 🧪 Automated tests cover API endpoints, validation, database operations, the MQTT subscriber, telemetry processing, and recovery workflows
-- 🧩 Modular design built for maintainability and future integration with physical IoT devices and monitoring interfaces
-
----
-
-### 🔴 [MarsWalk Intelligence (MWI)](https://github.com/AASH010/MarsWalk-Intelligence)
-
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-</p>
-
-A Mars terrain exploration and mission planning platform for analyzing Martian terrain, planning rover routes, and estimating mission requirements through an interactive map-based interface.
-
-- 🗺️ **Interactive Mars Map** with terrain, areas of interest (AOIs), route paths, and mission markers
-- 🧭 **Route Planning**: pick start and goal positions, choose a routing mode, and calculate a route
-- 📏 **Route Metrics** and **Route Comparison** across Fastest, Balanced, and Conservative modes
-- 🧑‍🚀 **Mission Planning**: estimates duration and oxygen consumption from mission parameters
-- 🗂️ **Layer Management** for CTX Orthomosaic, Operational AOI, and Route layers
-- 🖥️ Dark, science-oriented UI inspired by professional geospatial tools, with a **React** frontend and a **Python** backend
 
 ---
 
